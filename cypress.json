@@ -1,0 +1,23 @@
+{
+    "env": {},
+    "reporter": "cypress-mochawesome-reporter",
+    "reporterOptions": {
+      "reportDir": "cypress/reports",
+      "reportPageTitle": "Metro Digital Test Suite",
+      "reportFilename": "MetroTestReport",
+      "embeddedScreenshots": true,
+      "inlineAssets": true
+    },
+    "video": false,
+    "screenshotRunOnFailure": true,
+    "screenshotsFolder": "cypress/reports/mochareports/assets",
+    "trashAssetsBeforeRuns": false,
+    "pageLoadTimeout": 300000,
+    "defaultCommandTimeout": 60000,
+    "_blockHosts": [
+        "*.criteo.com",
+        "*.clarity.ms",
+        "*hotjar.com",
+        "*google.com"
+    ]
+}
